@@ -29,6 +29,7 @@ const Modal = ({
   secondaryAction,
   secondaryActionLabel,
 }: ModalProps) => {
+  /////////////
   const [showModal, setShowModal] = useState(isOpen);
 
   useEffect(() => {
